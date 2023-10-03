@@ -18,7 +18,23 @@ class MyClass
     static void Main()  // Main is important - all program starts in main
     {
         Console.WriteLine("Kulpot");
-
+        AMethod(); // calling a method
+        Console.WriteLine("Wahu");
+        AMethod();
+        Console.WriteLine("Coach");
+        /*-----OUTPUT-----
+         * 
+            Kulpot
+            this is the first line in the method
+            this is the second line in the method
+            this is the third line in the method
+            Wahu
+            this is the first line in the method
+            this is the second line in the method
+            this is the third line in the method
+            Coach
+         * 
+         */
 
 
 
